@@ -82,6 +82,7 @@ img {
     margin-top: 2%;
     height: 20vh;
     width: 15vw;
+    
 }
 
 .Blocos2 {
@@ -98,8 +99,6 @@ img {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
-    border: solid 2px;
     padding: 2%;
     height: 85vh;
     font-size: 1vw;
