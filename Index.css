@@ -27,8 +27,8 @@ li {
     display: flex;
     font-size: 1.2vw;
     align-items: center;
-    flex-direction: column;
-    background-color: #ACCE91;
+    flex-direction: column;                                    
+    background-color: #ACCE91;                               
     width: 20%;
     height: 192vh;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
@@ -132,6 +132,7 @@ li {
     margin-top: 25%;
     margin-bottom: 25%;
     background-color: white;
+    
 }
 
 
