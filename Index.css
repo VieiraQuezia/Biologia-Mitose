@@ -10,9 +10,10 @@ a {
     text-decoration: none;
     color: rgb(0, 0, 0);
     font-size: 1.2vw;
-    
 }
-li{font-size: 1.2vw;}
+li{
+    font-size: 1.2vw;
+}
 
 
 
@@ -141,7 +142,6 @@ li{font-size: 1.2vw;}
     flex-direction: row;
     font-size: 1.1vw;
     text-align: justify;
-
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
     padding: 2%;
     border-radius: 10px;
