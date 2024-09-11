@@ -3,6 +3,7 @@ body {
     margin: 0%;
     padding: 0%;
     font-family: monospace;
+    
 }
 
 a {
@@ -25,15 +26,17 @@ a {
     font-size: 1.2vw;
     align-items: center;
     flex-direction: column;
-    background-color: #8bb6a3;
+    background-color: #ACCE91;
     width: 20%;
     height: 137vh;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+
+    ul {
+        font-size: 1.7vw;
+    }
 }
 
-.Nav ul {
-    font-size: 1.7vw;
-}
+
 
 .Content {
     display: flex;
@@ -49,7 +52,7 @@ a {
     align-items: center;
     flex-direction: row;
     justify-content: space-around;
-    background-color: #17a7a8;
+    background-color: #8DB986;
     height: 20vh;
     width: 98%;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
@@ -86,7 +89,13 @@ a {
 .Bloco2 {
     background-image: url(img/18966141.jpg);
     background-size: cover;
-    border: solid 2px #ddd;
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border: solid 2px;
     padding: 2%;
     height: 85vh;
     font-size: 1vw;
@@ -95,6 +104,9 @@ a {
     flex-direction: column;
     width: 100%;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    h2{
+        color: aliceblue;
+    }
     
 }
 
@@ -104,9 +116,10 @@ a {
 
 
 
+
 .Rodape {
-    background-color:rgb(19, 135, 212);;
-    color: white;
+    background-color:#8DB986;
+    color: black;
     text-align: center;
     height: 18.4vh;
     font-size: 1.2vw;
