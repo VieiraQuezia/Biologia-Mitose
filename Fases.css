@@ -3,210 +3,220 @@ body {
     margin: 0%;
     padding: 0%;
     font-family: monospace;
-    
+
 }
-    a {
-        text-decoration: none;
-        color: rgb(0, 0, 0);
-        font-size: 1.2vw;
-        
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1.2vw;
+
+}
+
+li {
+    font-size: 1.2vw;
+}
+
+
+
+.Blocos {
+    display: flex;
+    flex-direction: row;
+}
+
+.Nav {
+    display: flex;
+    font-size: 1.2vw;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ACCE91;
+    width: 20%;
+    height: 137vh;
+
+    h2 {
+        margin-top: 15%;
     }
-    li{font-size: 1.2vw;}
-    
-    
-    
-    .Blocos {
-        display: flex;
-        flex-direction: row;
+
+    ul {
+        font-size: 1.7vw;
     }
-    
-    .Nav {
+}
+
+
+
+.Content {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.Titulo {
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    font-size: 2vw;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #8DB986;
+    height: 20vh;
+    width: 98%;
+}
+
+.audioedes {
+    display: flex;
+    flex-direction: row;
+
+}
+
+img {
+    border-radius: 50%;
+    height: 15vh;
+    width: 10vw;
+}
+
+.audioedes2 {
+    padding: 2%;
+    border-radius: 10px;
+    background-color: #8DB986 ;
+    margin-top: 2%;
+    height: 20vh;
+    width: 15vw;
+}
+
+.Blocos2 {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.1vw;
+}
+
+.Bloco2 {
+    background-image: url("img/WhatsApp Image 2024-09-11 at 10.32.40.jpeg");
+    background-size: cover;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border: solid 2px;
+    padding: 2%;
+    height: 85vh;
+    font-size: 1vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+
+    h2 {
+        color: aliceblue;
+    }
+
+}
+
+
+.Rodape {
+    background-color: #8DB986;
+    color: black;
+    text-align: center;
+    height: 18.4vh;
+    font-size: 1.2vw;
+    padding: 1% 0;
+
+}
+
+.Bloco2-1 {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.1vw;
+    text-align: justify;
+
+    padding: 2%;
+    border-radius: 10px;
+    background-color: white;
+
+    p {
+        padding-left: 5%;
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+    * {
+
         display: flex;
-        font-size: 1.2vw;
-        align-items: center;
         flex-direction: column;
-        background-color: #ACCE91;
-        width: 20%;
-        height: 137vh;
-    
-        ul {
-            font-size: 1.7vw;
-        }
-    }
-    
-    
-    
-    .Content {
-        display: flex;
-        flex-direction: column;
-        width: 80%;
-    }
-    
-    .Titulo {
-        padding: 1%;
-        display: flex;
-        flex-direction: column;
-        font-size: 2vw;
-        align-items: center;
-        flex-direction: row;
-        justify-content: space-around;
-        background-color: #8DB986;
-        height: 20vh;
-        width: 98%;
-    }
-    
-    .img1 {
-        border-radius: 15%;
-        width: 14vw;
-        max-width: 100%;
-    }
-    
-    .img2 {
-        border-radius: 15%;
-        width: 14vw;
-        max-width: 100%;
-    }
-    
-    .img3 {
-        border-radius: 50%;
-        height: 15vh;
-        width: 10vw;
-    }
-    
-    .Blocos2 {
-        display: flex;
-        flex-direction: row;
-        font-size: 1.1vw;
-    }
-    
-    .Bloco2 {
-        background-image: url("img/WhatsApp Image 2024-09-11 at 10.32.40.jpeg") ;
-        background-size: cover;
-        
-        background-attachment: fixed;
-        background-position:center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    
-        border: solid 2px;
-        padding: 2%;
-        height: 85vh;
-        font-size: 1vw;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        width: 100%;
-        h2{
-            color: aliceblue;
-        }
-        
-    }
-    
-    
-    .Rodape {
-        background-color:#8DB986;
-        color: black;
-        text-align: center;
-        height: 18.4vh;
-        font-size: 1.2vw;
-        padding: 1% 0;
-        
-    }
-    
-    .Bloco2-1 {
-        display: flex;
-        flex-direction: row;
-        font-size: 1.1vw;
-        text-align: justify;
-    
-        padding: 2%;
-        border-radius: 10px;
-        background-color: white;
-        p{
-            padding-left: 5%;
-        }
-    }
-    .p{ 
-        box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
-        padding: 2%;
-        border-radius: 10px;
-        background-color: white;
-        margin-top: 2%;
-        
-    }
-    
-    @media screen and  (max-width: 768px)  {
-        *{
-            
-            display: flex;
-            flex-direction: column;
-           
-          p{
+
+        p {
             font-size: 2.5vw;
-          }
-          h1 {
+        }
+
+        h1 {
             font-size: 4vw;
-          }  
-          h2 {
+        }
+
+        h2 {
             font-size: 3vw;
-          }  
-          
-            
         }
-        
-        
-            
-        
-            .Bloco2 {
-                height: 70vh;
-                
-                
-               
-        
-        
-            }
-        
-           
-        
-            .img1 {
-                width: 18vw;
-        
-            }
-        
-            .img2 {
-                width: 20vw;
-        
-            }
-        
-            
-            .Titulo {
-                font-size: 2vw;
-            }
-        
-           
-        
-            .Nav {
-                
-                font-size: 2vw;
-                height: 112vh;
-               
-        
-        
-                a {
-                    font-size: 4vw;
-                }                 
-        
-                h2 {
-                    margin-left: 14%;
-                }
-               
-            }
-        
-        .Rodape{
-            p{
-                font-size: 3vw;
-            
-            
+
+
+    }
+
+
+
+
+    .Bloco2 {
+        height: 70vh;
+
+
+
+
+
+    }
+
+
+
+    .img1 {
+        width: 18vw;
+
+    }
+
+    .img2 {
+        width: 20vw;
+
+    }
+
+
+    .Titulo {
+        font-size: 2vw;
+    }
+
+
+
+    .Nav {
+
+        font-size: 2vw;
+        height: 112vh;
+
+
+
+        a {
+            font-size: 4vw;
         }
-        
-        }}
+
+        h2 {
+            margin-left: 14%;
+        }
+
+    }
+
+    .Rodape {
+        p {
+            font-size: 3vw;
+
+
+        }
+
+    }
+}
