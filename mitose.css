@@ -83,7 +83,7 @@ a {
 }
 
 .Bloco2 {
-    background-image: url(img/section.jpg);
+    background-image: url(img/18966141.jpg);
     background-size: cover;
     border: solid 2px #ddd;
     padding: 2%;
@@ -176,14 +176,7 @@ a {
         height: 65vh;
         font-size: 2vw;
     }
-    .Bloco1{
-        font-size: 1.8vw;
-        height: 35vh;
-        width: 76vw;
-        a{
-        font-size: 2vw;
-        }
-    }
+  
     
     .Nav{
         font-size: 2vw;
@@ -257,14 +250,7 @@ a {
         font-size: 2vw;
     }
 
-    .Bloco1 {
-        height: 90vh;
-        font-size: 1.5vw;
-
-        a {
-            font-size: 1.5vw;
-        }
-    }
+   
 
     .Nav {
         
