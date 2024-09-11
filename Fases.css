@@ -136,3 +136,78 @@ body {
         
     }
     
+    @media screen and  (max-width: 768px)  {
+        *{
+            
+            display: flex;
+            flex-direction: column;
+           
+          p{
+            font-size: 2.5vw;
+          }
+          h1 {
+            font-size: 4vw;
+          }  
+          h2 {
+            font-size: 3vw;
+          }  
+          
+            
+        }
+        
+        
+            
+        
+            .Bloco2 {
+                height: 70vh;
+                
+                
+               
+        
+        
+            }
+        
+           
+        
+            .img1 {
+                width: 18vw;
+        
+            }
+        
+            .img2 {
+                width: 20vw;
+        
+            }
+        
+            
+            .Titulo {
+                font-size: 2vw;
+            }
+        
+           
+        
+            .Nav {
+                
+                font-size: 2vw;
+                height: 112vh;
+               
+        
+        
+                a {
+                    font-size: 4vw;
+                }                 
+        
+                h2 {
+                    margin-left: 14%;
+                }
+               
+            }
+        
+        .Rodape{
+            p{
+                font-size: 3vw;
+            
+            
+        }
+        
+        }}
