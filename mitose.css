@@ -91,7 +91,7 @@ li{font-size: 1.2vw;}
 
     border: solid 2px;
     padding: 2%;
-    height: 85vh;
+    height: 140vh;
     font-size: 1vw;
     display: flex;
     align-items: center;
@@ -103,9 +103,23 @@ li{font-size: 1.2vw;}
     }
     
 }
+.music{
+    display: flex;
+    flex-direction: row;
+    padding: 7%;
+}
 
-
-
+.vd{
+    
+    padding: 2%;
+    border-radius: 10px;
+    background-color: white ;
+}
+.audio{
+    display: flex;
+    border-radius: 10px;
+    background-color: white;
+}
 
 
 
