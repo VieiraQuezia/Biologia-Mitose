@@ -31,7 +31,7 @@ li {
     flex-direction: column;
     background-color: #ACCE91;
     width: 20%;
-    height: 137vh;
+    height: 133vh;
 
     h2 {
         margin-top: 15%;
@@ -120,7 +120,6 @@ img {
     text-align: center;
     height: 18.4vh;
     font-size: 1.2vw;
-    padding: 1% 0;
 
 }
 
@@ -163,30 +162,6 @@ img {
         height: 20vh;
         width: 98%;
     }
-    
-    .img1 {
-        border-radius: 15%;
-        width: 14vw;
-        max-width: 100%;
-    }
-    
-    .img2 {
-        border-radius: 15%;
-        width: 14vw;
-        max-width: 100%;
-    }
-    
-    .img3 {
-        border-radius: 50%;
-        height: 15vh;
-        width: 10vw;
-    }
-    
-    .img2 {
-        border-radius: 15%;
-        width: 17vw;
-        max-width: 100%;
-    }
 
     .Blocos2 {
         display: flex;
@@ -223,7 +198,6 @@ img {
         text-align: center;
         height: 18.4vh;
         font-size: 1.2vw;
-        padding: 1% 0;
         
     }
     
