@@ -74,6 +74,12 @@ body {
         width: 20vw;
     }
     
+    .img2 {
+        border-radius: 15%;
+        width: 17vw;
+        max-width: 100%;
+    }
+
     .Blocos2 {
         display: flex;
         flex-direction: row;
