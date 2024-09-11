@@ -6,6 +6,10 @@ body {
 
 }
 
+*{
+    margin: 0%;
+}
+
 a {
     text-decoration: none;
     color: rgb(0, 0, 0);
@@ -31,7 +35,7 @@ li {
     flex-direction: column;
     background-color: #ACCE91;
     width: 20%;
-    height: 137vh;
+    height: 140vh;
 
     h2 {
         margin-top: 15%;
@@ -66,7 +70,6 @@ li {
 .audioedes {
     display: flex;
     flex-direction: row;
-
 }
 
 img {
@@ -82,7 +85,6 @@ img {
     margin-top: 2%;
     height: 20vh;
     width: 15vw;
-    
 }
 
 .Blocos2 {
@@ -120,8 +122,7 @@ img {
     text-align: center;
     height: 18.4vh;
     font-size: 1.2vw;
-    padding: 1% 0;
-
+    padding-top: 4%;
 }
 
 .Bloco2-1 {
@@ -163,30 +164,6 @@ img {
         height: 20vh;
         width: 98%;
     }
-    
-    .img1 {
-        border-radius: 15%;
-        width: 14vw;
-        max-width: 100%;
-    }
-    
-    .img2 {
-        border-radius: 15%;
-        width: 14vw;
-        max-width: 100%;
-    }
-    
-    .img3 {
-        border-radius: 50%;
-        height: 15vh;
-        width: 10vw;
-    }
-    
-    .img2 {
-        border-radius: 15%;
-        width: 17vw;
-        max-width: 100%;
-    }
 
     .Blocos2 {
         display: flex;
@@ -223,7 +200,6 @@ img {
         text-align: center;
         height: 18.4vh;
         font-size: 1.2vw;
-        padding: 1% 0;
         
     }
     
