@@ -110,7 +110,7 @@ li {
 .music {
     display: flex;
     flex-direction: row;
-    padding: 7%;
+    padding: %;
 }
 
 .vd {
@@ -118,10 +118,7 @@ li {
     border-radius: 10px;
     background-color: white;
 
-    img {
-        width: 30vw;
-        height: 50vh;
-    }
+ margin-top: 5%;
 }
 
 .audio {
@@ -189,6 +186,7 @@ li {
 
 @media screen and (max-width: 768px) {
     * {
+margin: 0%;
 
         display: flex;
         flex-direction: column;
@@ -204,6 +202,9 @@ li {
         h2 {
             font-size: 3vw;
         }
+        li{
+            font-size: 3vw;
+        }
 
 
     }
@@ -212,7 +213,7 @@ li {
 
 
     .Bloco2 {
-        height: 70vh;
+        height: 80vh;
 
 
 
@@ -242,7 +243,7 @@ li {
     .Nav {
 
         font-size: 2vw;
-        height: 112vh;
+        height: 120vh;
 
 
 
@@ -257,6 +258,7 @@ li {
     }
 
     .Rodape {
+        height: 16.2vh;
         p {
             font-size: 3vw;
 
