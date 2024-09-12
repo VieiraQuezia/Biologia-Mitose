@@ -27,8 +27,8 @@ li {
     display: flex;
     font-size: 1.2vw;
     align-items: center;
-    flex-direction: column;                                    
-    background-color: #ACCE91;                               
+    flex-direction: column;
+    background-color: #ACCE91;
     width: 20%;
     height: 192vh;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
@@ -110,16 +110,24 @@ li {
 .music {
     display: flex;
     flex-direction: row;
-    padding: %;
+    padding: 2%;
 }
 
 .vd {
-    padding: 2%;
+    padding-top: 6%;
     border-radius: 10px;
     background-color: white;
+    margin-top: 5%;
+    justify-content: center;
 
- margin-top: 5%;
+    
+    img{
+        width: 20vw;
+        height: 30vh;
+        }
+
 }
+
 
 .audio {
     display: flex;
@@ -129,7 +137,7 @@ li {
     margin-top: 25%;
     margin-bottom: 25%;
     background-color: white;
-    
+
 }
 
 
@@ -186,7 +194,7 @@ li {
 
 @media screen and (max-width: 768px) {
     * {
-margin: 0%;
+        margin: 0%;
 
         display: flex;
         flex-direction: column;
@@ -202,15 +210,14 @@ margin: 0%;
         h2 {
             font-size: 3vw;
         }
-        li{
-            font-size: 3vw;
+
+        li {
+            font-size: 2.5vw;
         }
 
 
     }
-
-
-
+    
 
     .Bloco2 {
         height: 80vh;
@@ -244,11 +251,12 @@ margin: 0%;
 
         font-size: 2vw;
         height: 120vh;
+        width: 25%;
 
 
 
         a {
-            font-size: 4vw;
+            font-size: 3vw;
         }
 
         h2 {
@@ -259,11 +267,15 @@ margin: 0%;
 
     .Rodape {
         height: 16.2vh;
+
         p {
             font-size: 3vw;
 
 
         }
 
+    }
+    .Bloco2-1 {
+        width: 60%;
     }
 }
