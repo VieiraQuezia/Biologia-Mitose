@@ -152,7 +152,7 @@ li {
 
 .Bloco2-1 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     font-size: 1.1vw;
     text-align: justify;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
